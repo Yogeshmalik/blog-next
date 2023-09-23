@@ -5,6 +5,7 @@ import CategoryList from "@/components/categoryList/CategoryList";
 import CardList from "@/components/cardList/CardList";
 import Menu from "@/components/Menu/Menu";
 
+// export default function Home({ searchParams }) {
 export default function Home({ searchParams }) {
   const page = parseInt(searchParams.page) || 1;
 
